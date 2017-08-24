@@ -1,0 +1,28 @@
+* {
+/*!!PLACE THE FULL/GENERAL STYLING FEATURES HERE!!*/
+}
+
+h1 {
+	font-family:'Quicksand', monospace;
+	font-weight: bold; 
+}
+
+h2 {
+	line-height: 80%;
+}
+
+span {
+	font-family:'Quicksand', monospace;
+	font-weight: bold; 
+}
+
+h3 {
+	font-family:'Quicksand', monospace;
+	font-weight: bold; 
+	padding-bottom: 50px;
+}
+
+.crystal-image {
+	width: 300px;
+	height: 300px;
+}

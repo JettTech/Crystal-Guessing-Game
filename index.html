@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us"/>
+<head>
+  <title>The Crystal Number Game!</title>
+
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Reset Link: -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+<!--   Bootstrap Link: USE THE BOOTSTRAP STYLESSSSSSSSSS!-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+
+<!-- Reg. Stylesheet Link: -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata|Quicksand"> -->
+</head>
+
+<body>
+  
+  
+  <div id="box-wrapper" class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <h1 class="page-header text-center">The Crystal Number Game</h1>
+            <h2 class="page-header text-center"> Number to Guess: 
+              <span id="numberToGuess"></span><!--  USE THE "SPAN" tag rather than a DIV tag in order to avoid the "block" spacing, which could result in the whole width of the box (default = the width of the page) being reactive to the JS "onkey" event (/eventhandler). --></h2>
+            <h3 id="score" class="text-center"></h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-body">
+            <h2 class="text-center"><bold>Welcome to the Crystal Number Game!</bold></h2>
+            <p class="text-center">
+              Your goal is to match the target number by clicking on one of the four crystals below.  Each crystal holds a differnt hidden value, which changes each round. With each click, your count will increment by a random value associated with the selected crystal. Good luck!
+            </p>
+            <h2 id="crystals" class="text-center"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= JAVASCRIPT FILE ======================== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!--  THIS IS FOR THE JQUERY LIBRARY!!!!! -->
+  <script type="text/javascript" src="assets/javascript/game.js"></script> <!--  Do we need to have BOTH a script tag FOR LINKING ....AND a script tag for the JS "body text"???? -->
+  <script type="text/javascript">
+    //ALL THE JS TEXT IS CONTAINED IN THE LINKED JS (SOURCE) FILE!!
+  </script>
+  <!-- ========================================= -->
+
+</body>
+</html>
