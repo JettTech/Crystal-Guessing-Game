@@ -18,8 +18,11 @@ span {
 
 h3 {
 	font-family:'Quicksand', monospace;
-	font-weight: bold; 
-	padding-bottom: 50px;
+	font-weight: bold;
+}
+
+#runningTotal {
+	padding-bottom: 20px; 
 }
 
 .crystal-image {

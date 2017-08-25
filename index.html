@@ -15,7 +15,7 @@
 
 <!-- Reg. Stylesheet Link: -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  
+
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata|Quicksand"> -->
 </head>
 
@@ -27,18 +27,19 @@
       <div class="row">
         <div class="col-md-12">
             <h1 class="page-header text-center">The Crystal Number Game</h1>
-            <h2 class="page-header text-center"> Number to Guess: 
+            <h2 class="page-header text-center"> Target Number: 
               <span id="numberToGuess"></span><!--  USE THE "SPAN" tag rather than a DIV tag in order to avoid the "block" spacing, which could result in the whole width of the box (default = the width of the page) being reactive to the JS "onkey" event (/eventhandler). --></h2>
             <h3 id="score" class="text-center"></h3>
+            <h3 id="runningTotal" class="text-center"></h3>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
           <div class="panel panel-body">
-            <h2 class="text-center"><bold>Welcome to the Crystal Number Game!</bold></h2>
+            <h2 class="text-center">Welcome to the Crystal Number Game!</h2>
             <p class="text-center">
-              Your goal is to match the target number by clicking on one of the four crystals below.  Each crystal holds a differnt hidden value, which changes each round. With each click, your count will increment by a random value associated with the selected crystal. Good luck!
+              Your goal is to match the target number by clicking on one of the four crystals below.  Each crystal holds a different hidden value, which changes each round. With each click, your count will increment by a random value associated with the selected crystal. Good luck!
             </p>
             <h2 id="crystals" class="text-center"></h2>
           </div>
