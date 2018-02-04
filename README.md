@@ -6,4 +6,4 @@ View the application [here](https://jetttech.github.io/Crystal-Guessing-Game/)!
 
 Built by [Lisa Jetton](https://github.com/JettTech/).
 
-![](https://imgflip.com/gif/23xaf6)
+![](https://media.giphy.com/media/yYc5L3vhTWeBi/giphy.gif)
